@@ -1,0 +1,19 @@
+{
+    "name": "isolucoesweb/router",
+    "description": "Roteamento para MVC!",
+    "keywords": [],
+    "homepage": "https://www.isolucoesweb.com.br",
+    "license": "MIT",
+    "authors": [{
+        "name": "Bruno Fumagally",
+        "email": "suporte@isolucoesweb.com.br"
+    }],
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ISWEB\\Router\\": "src"
+        }
+    }
+}
