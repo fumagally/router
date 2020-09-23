@@ -15,7 +15,7 @@ class Router extends Dispatch
      * @param string $projectUrl
      * @param null|string $separator
      */
-    public function __construct(string $projectUrl, ?string $separator = "@")
+    public function __construct(string $projectUrl, ?string $separator = ":")
     {
         parent::__construct($projectUrl, $separator);
     }
